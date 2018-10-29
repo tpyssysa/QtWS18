@@ -73,6 +73,12 @@ Item {
     Backgrounds_195_610 {
         x: 0
         y: 0
+
+        RectangleItem {
+            id: rectangle
+            x: 96
+            y: 120
+        }
     }
 
     DirectionalBlurItem {
@@ -428,6 +434,12 @@ Item {
                 target: timelineAnimation
                 running: true
             }
+
+            PropertyChanges {
+                target: rectangle
+                width: 354
+                height: 150
+            }
         },
         State {
             name: "running"
@@ -451,7 +463,9 @@ Item {
 }
 
 
+
+
 /*##^## Designer {
-    D{i:0;autoSize:true;height:480;width:640}
+    D{i:20}
 }
  ##^##*/
