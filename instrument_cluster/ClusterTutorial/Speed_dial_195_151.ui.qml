@@ -109,7 +109,7 @@ Item {
             id: kph_195_98
             x: 2
             y: 357
-            color: "#FFFFFF"
+            color: "#80f752"
             text: "30"
             font.weight: Font.Thin
             font.pixelSize: 29
@@ -815,12 +815,12 @@ Item {
 
             Keyframe {
                 frame: 29
-                value: "#5ca8ba"
+                value: "#86ff56"
             }
 
             Keyframe {
                 frame: 31
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
@@ -834,12 +834,12 @@ Item {
             property: "scale"
             Keyframe {
                 frame: 39
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
                 frame: 41
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
@@ -863,12 +863,12 @@ Item {
 
             Keyframe {
                 frame: 39
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
                 frame: 41
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
@@ -882,12 +882,12 @@ Item {
             property: "scale"
             Keyframe {
                 frame: 49
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
                 frame: 51
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
@@ -911,12 +911,12 @@ Item {
 
             Keyframe {
                 frame: 49
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
                 frame: 51
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
@@ -930,12 +930,12 @@ Item {
             property: "scale"
             Keyframe {
                 frame: 59
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
                 frame: 61
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
@@ -959,12 +959,12 @@ Item {
 
             Keyframe {
                 frame: 59
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
                 frame: 61
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
@@ -1640,11 +1640,8 @@ Item {
 
 
 
-
-
 /*##^## Designer {
-    D{i:0;height:548;width:610}D{i:5;timeline_expanded:true}D{i:6;timeline_expanded:true}
-D{i:83;property:"scale";target:"kph_195_96"}D{i:86;property:"color";target:"kph_195_96"}
-D{i:56}
+    D{i:0;height:548;width:610}D{i:9;timeline_expanded:true}D{i:83;property:"scale";target:"kph_195_96"}
+D{i:86;property:"color";target:"kph_195_96"}D{i:56}
 }
  ##^##*/
