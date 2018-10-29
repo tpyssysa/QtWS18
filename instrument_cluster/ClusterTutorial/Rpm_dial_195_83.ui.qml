@@ -1,3 +1,5 @@
+
+
 /****************************************************************************
 **
 ** Copyright (C) 2018 The Qt Company Ltd.
@@ -47,7 +49,6 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
-
 import QtQuick 2.8
 import QtQuick.Timeline 1.0
 import QtQuick.Studio.Components 1.0
@@ -365,6 +366,7 @@ Item {
             y: 25
             width: 412
             height: 412
+            antialiasing: true
             strokeColor: "#3eee6b"
             end: 60.4
             begin: -108
@@ -401,6 +403,7 @@ Item {
             y: 102
             width: 264
             height: 264
+            antialiasing: true
             strokeWidth: 4.5
             end: 360
         }
@@ -1124,7 +1127,10 @@ Item {
     }
 }
 
+
+
+
 /*##^## Designer {
-    D{i:0;width:390;height:500}D{i:1828;text__AT__NodeInstance:"0"}D{i:1848;currentFrame__AT__NodeInstance:0}
+    D{i:0;height:550;width:450}
 }
  ##^##*/
