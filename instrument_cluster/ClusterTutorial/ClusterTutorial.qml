@@ -59,6 +59,17 @@ Window {
     title: qsTr("Instrument Cluster")
 
     Cluster_Art {
+        onCurrentGearChanged: console.log("Current gear is", currentGear);
+
+        focus: true
+        Keys.onPressed: {
+
+            currentGear = 5;
+            event.accepted = true;
+        }
 
     }
+
+
+
 }

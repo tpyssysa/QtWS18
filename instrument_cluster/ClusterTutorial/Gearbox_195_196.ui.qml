@@ -1,3 +1,4 @@
+
 /****************************************************************************
 **
 ** Copyright (C) 2018 The Qt Company Ltd.
@@ -53,6 +54,7 @@ Item {
     id: gearbox
     width: 65
     height: 136
+    property alias current_gear: current_gear
     property int currentGear: 1
 
     Text {
@@ -274,7 +276,8 @@ Item {
     ]
 }
 
+
 /*##^## Designer {
-    D{i:0;width:65;currentGear__AT__NodeInstance:1;height:136}
+    D{i:0;currentGear__AT__NodeInstance:1;height:136;width:65}
 }
  ##^##*/

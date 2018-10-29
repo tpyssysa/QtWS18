@@ -1,3 +1,5 @@
+
+
 /****************************************************************************
 **
 ** Copyright (C) 2018 The Qt Company Ltd.
@@ -47,7 +49,6 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
-
 import QtQuick 2.8
 import QtQuick.Timeline 1.0
 import Data 1.0 as Data
@@ -59,6 +60,7 @@ Item {
     width: 1920
     height: 1080
     property alias fuel_dial_195_43: fuel_dial_195_43
+    property alias currentGear: gearbox_195_196.currentGear
 
     Image {
         id: cluster_ArtAsset
@@ -447,10 +449,7 @@ Item {
 }
 
 
-
-
-
 /*##^## Designer {
-    D{i:8;timeline_expanded:true}D{i:13;timeline_expanded:true}D{i:16;currentFrame__AT__NodeInstance:4997}
+    D{i:0;autoSize:true;height:480;width:640}
 }
  ##^##*/
