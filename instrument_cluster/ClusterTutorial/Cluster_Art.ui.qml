@@ -62,6 +62,10 @@ Item {
     property alias fuel_dial_195_43: fuel_dial_195_43
     property alias currentGear: gearbox_195_196.currentGear
     property alias airConActive: iso_195_156.airConActive
+    property alias parkingBreakActive: iso_195_156.isoIcon5Active
+    property alias lightsActive: iso_195_156.isoIcon4Active
+    property alias seatbeltActive: iso_195_156.isoIcon3Active
+    property alias absActive: iso_195_156.isoIcon1Active
 
     Image {
         id: cluster_ArtAsset
@@ -88,10 +92,10 @@ Item {
             id: iso_195_156
             x: 0
             y: 37
-            isoIcon5Active: false
-            isoIcon4Active: false
-            isoIcon3Active: false
-            isoIcon1Active: false
+            isoIcon5Active: false // parkingBreak
+            isoIcon4Active: false // lights
+            isoIcon3Active: false // seatbelt
+            isoIcon1Active: false // abs
             airConActive: false
             rpmEngineActive: Data.Values.engineTemp
             fuelWarningActive: Data.Values.fuelLevel
@@ -459,9 +463,7 @@ Item {
 }
 
 
-
-
 /*##^## Designer {
-    D{i:17;timeline_expanded:true}D{i:20}
+    D{i:0;autoSize:true;height:480;width:640}
 }
  ##^##*/
