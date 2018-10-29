@@ -73,12 +73,6 @@ Item {
     Backgrounds_195_610 {
         x: 0
         y: 0
-
-        RectangleItem {
-            id: rectangle
-            x: 96
-            y: 120
-        }
     }
 
     DirectionalBlurItem {
@@ -433,12 +427,6 @@ Item {
             PropertyChanges {
                 target: timelineAnimation
                 running: true
-            }
-
-            PropertyChanges {
-                target: rectangle
-                width: 354
-                height: 150
             }
         },
         State {
