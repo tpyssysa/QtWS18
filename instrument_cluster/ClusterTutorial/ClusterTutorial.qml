@@ -52,6 +52,7 @@ import QtQuick 2.10
 import QtQuick.Window 2.11
 import ClusterTutorial 1.0
 import Automotibe.Cluster.Backend 72.3
+import qt.io.qmlcomponents 42.0
 
 Window {
     visible: true
@@ -61,13 +62,13 @@ Window {
 
     Cluster_Art {
         id: cluster_art
-        airConActive: Backend.airCond
+        airConActive: BackendPlugin.airCond
         focus: true
         Keys.onPressed: {
             if (event.key >= Qt.Key_1 && event.key <= Qt.Key_5)
                 Backend.gear = event.key - Qt.Key_0;
             else if (event.key === Qt.Key_A)
-                Backend.airCond = !Backend.airCond;
+                BackendPlugin.airCond = !BackendPlugin.airCond;
 
             event.accepted = true;
         }

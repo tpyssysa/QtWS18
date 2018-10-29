@@ -82,8 +82,8 @@ Project {
     }
 
     /* List of plugin directories passed to QML runtime */
-    importPaths: [ "imports", "backend"]
-
+    // importPaths: [ "imports", "backend", "/Users/Shared/Qt/5.11.2/clang_64/qml" ]
+    importPaths: [ "imports", "backend" ]
     /* Required for deployment */
     targetDirectory: "/opt/ClusterTutorial"
 }

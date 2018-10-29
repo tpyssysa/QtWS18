@@ -51,6 +51,7 @@
 pragma Singleton
 import QtQuick 2.10
 import "simulation.js" as JS
+// import qt.io.qmlcomponents 42.0
 
 QtObject {
     id: values
@@ -110,6 +111,8 @@ QtObject {
     }
 
 }
+
+
 
 
 

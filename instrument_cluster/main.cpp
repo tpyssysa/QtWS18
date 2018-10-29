@@ -4,13 +4,13 @@
 #include "backend.h"
 
 static QObject *backendProvider(QQmlEngine *engine, QJSEngine *scriptEngine)
-  {
-      Q_UNUSED(engine)
-      Q_UNUSED(scriptEngine)
+{
+    Q_UNUSED(engine)
+    Q_UNUSED(scriptEngine)
 
-      Backend *backend = new Backend();
-      return backend;
-  }
+    Backend *backend = new Backend();
+    return backend;
+}
 
 int main(int argc, char *argv[])
 {

@@ -1,0 +1,2 @@
+module qt.io.qmlcomponents
+plugin backend_plugin
