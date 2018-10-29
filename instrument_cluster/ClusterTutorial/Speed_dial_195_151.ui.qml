@@ -1,3 +1,5 @@
+
+
 /****************************************************************************
 **
 ** Copyright (C) 2018 The Qt Company Ltd.
@@ -47,7 +49,6 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
-
 import QtQuick 2.8
 import QtQuick.Timeline 1.0
 import QtQuick.Studio.Components 1.0
@@ -86,7 +87,7 @@ Item {
             id: kph_195_96
             x: 81
             y: 484
-            color: "#FFFFFF"
+            color: "#000000"
             text: "10"
             font.weight: Font.Thin
             font.pixelSize: 29
@@ -296,7 +297,7 @@ Item {
             x: 426
             y: 524
             color: "#FFFFFF"
-            text: "200"
+            text: "300"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -645,7 +646,7 @@ Item {
 
             Keyframe {
                 frame: 2
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
@@ -660,12 +661,12 @@ Item {
 
             Keyframe {
                 frame: 0
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
                 frame: 2
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
@@ -679,12 +680,12 @@ Item {
             property: "scale"
             Keyframe {
                 frame: 9
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
                 frame: 11
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
@@ -694,6 +695,11 @@ Item {
 
             Keyframe {
                 frame: 13
+                value: 1
+            }
+
+            Keyframe {
+                frame: 0
                 value: 1
             }
         }
@@ -708,16 +714,21 @@ Item {
 
             Keyframe {
                 frame: 9
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
                 frame: 11
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
                 frame: 13
+                value: "#ffffff"
+            }
+
+            Keyframe {
+                frame: 0
                 value: "#ffffff"
             }
         }
@@ -727,12 +738,12 @@ Item {
             property: "scale"
             Keyframe {
                 frame: 19
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
                 frame: 21
-                value: 1.2
+                value: 1.4
             }
 
             Keyframe {
@@ -756,12 +767,12 @@ Item {
 
             Keyframe {
                 frame: 19
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
                 frame: 21
-                value: "#5ca8ba"
+                value: "#8afa5d"
             }
 
             Keyframe {
@@ -1626,8 +1637,14 @@ Item {
     }
 }
 
+
+
+
+
+
 /*##^## Designer {
-    D{i:0;height:548;width:610}D{i:49;text__AT__NodeInstance:"100.0"}D{i:51;text__AT__NodeInstance:"0"}
-D{i:55;currentFrame__AT__NodeInstance:0}D{i:56;currentFrame__AT__NodeInstance:0}
+    D{i:0;height:548;width:610}D{i:5;timeline_expanded:true}D{i:6;timeline_expanded:true}
+D{i:83;property:"scale";target:"kph_195_96"}D{i:86;property:"color";target:"kph_195_96"}
+D{i:56}
 }
  ##^##*/

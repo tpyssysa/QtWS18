@@ -70,9 +70,11 @@ Item {
         source: "assets/Cluster_Art.png"
     }
 
-    Backgrounds_195_610 {
+    Image {
+        id: image1
         x: 0
         y: 0
+        source: "assets/backgrounds_195_610.png"
     }
 
     DirectionalBlurItem {
@@ -146,6 +148,7 @@ Item {
         opacity: 1
 
         Speed_dial_195_151 {
+            id: speed_dial_195_151
             x: 95
             y: 91
             kplDisplay: Data.Values.displayKpl
@@ -427,6 +430,11 @@ Item {
             PropertyChanges {
                 target: timelineAnimation
                 running: true
+            }
+
+            PropertyChanges {
+                target: speed_dial_195_151
+                kphFrame: 0.1
             }
         },
         State {
