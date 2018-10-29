@@ -192,7 +192,7 @@ Item {
             }
 
             Keyframe {
-                easing.bezierCurve: [0.90, 0.03, 0.69, 0.22, 1, 1]
+                easing.bezierCurve: [0.229, 0.00801, 0.354, 0.639, 0.489, 0.742, 0.625, 0.844, 0.788, 0.873, 1, 1]
                 value: 1.1
                 frame: 4117
             }
@@ -454,6 +454,6 @@ Item {
 
 
 /*##^## Designer {
-    D{i:20}
+    D{i:17;timeline_expanded:true}D{i:20}
 }
  ##^##*/
