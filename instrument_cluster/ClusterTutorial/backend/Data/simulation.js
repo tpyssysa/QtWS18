@@ -107,7 +107,7 @@ function setNeedleKph() {
 
 /* controls the numerical KPH readout */
 function setDisplayKph() {
-    values.displayKph = simulation.kph(kphReadoutCount); // (Math.round(kphReadoutCount))
+    values.displayKph = (Math.round(kphReadoutCount))
 }
 
 /* controls the numerical KPL readout */

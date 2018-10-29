@@ -51,7 +51,7 @@
 import QmlProject 1.1
 
 Project {
-    mainFile: "ClusterTutorial.qml"
+    mainFile: "Cluster_Art.ui.qml"
 
     /* Include .qml, .js, and image files from current directory and subdirectories */
     QmlFiles {

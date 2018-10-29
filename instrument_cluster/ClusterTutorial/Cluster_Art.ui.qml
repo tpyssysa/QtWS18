@@ -61,6 +61,7 @@ Item {
     height: 1080
     property alias fuel_dial_195_43: fuel_dial_195_43
     property alias currentGear: gearbox_195_196.currentGear
+    property alias airConActive: iso_195_156.airConActive
 
     Image {
         id: cluster_ArtAsset
@@ -82,6 +83,7 @@ Item {
         height: 142
 
         Iso_195_156 {
+            id: iso_195_156
             x: 0
             y: 37
             isoIcon5Active: false

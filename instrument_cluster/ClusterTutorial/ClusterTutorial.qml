@@ -51,6 +51,7 @@
 import QtQuick 2.10
 import QtQuick.Window 2.11
 import ClusterTutorial 1.0
+import Automotibe.Cluster.Backend 72.3
 
 Window {
     visible: true
@@ -59,17 +60,20 @@ Window {
     title: qsTr("Instrument Cluster")
 
     Cluster_Art {
-        onCurrentGearChanged: console.log("Current gear is", currentGear);
-
+        id: cluster_art
+        airConActive: Backend.airCond
         focus: true
         Keys.onPressed: {
+            if (event.key >= Qt.Key_1 && event.key <= Qt.Key_5)
+                Backend.gear = event.key - Qt.Key_0;
+            else if (event.key === Qt.Key_A)
+                Backend.airCond = !Backend.airCond;
 
-            currentGear = 5;
             event.accepted = true;
         }
-
+        Connections {
+            target: Backend
+            onGearChanged: cluster_art.currentGear = Backend.gear;
+        }
     }
-
-
-
 }
