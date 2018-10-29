@@ -75,7 +75,7 @@ Item {
     }
 
     Image {
-        id: image2
+        id: back
         x: 0
         y: 0
         source: "assets/backgrounds_195_610.png"
