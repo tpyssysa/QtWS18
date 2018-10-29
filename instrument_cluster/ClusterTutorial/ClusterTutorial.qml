@@ -62,13 +62,26 @@ Window {
 
     Cluster_Art {
         id: cluster_art
-        airConActive: BackendPlugin.airCond
+        airConActive: Backend.airCond
+        parkingBreakActive: Backend.parkingBreak
+        lightsActive: Backend.lights
+        seatbeltActive: Backend.seatbelt
+        absActive: Backend.abs
+
         focus: true
         Keys.onPressed: {
             if (event.key >= Qt.Key_1 && event.key <= Qt.Key_5)
                 Backend.gear = event.key - Qt.Key_0;
             else if (event.key === Qt.Key_A)
-                BackendPlugin.airCond = !BackendPlugin.airCond;
+                Backend.airCond = !Backend.airCond;
+            else if (event.key === Qt.Key_S)
+                Backend.seatbelt = !Backend.seatbelt;
+            else if (event.key === Qt.Key_P)
+                Backend.parkingBreak = !Backend.parkingBreak;
+            else if (event.key === Qt.Key_B)
+                Backend.abs = !Backend.abs;
+            else if (event.key === Qt.Key_L)
+                Backend.lights = !Backend.lights;
 
             event.accepted = true;
         }
