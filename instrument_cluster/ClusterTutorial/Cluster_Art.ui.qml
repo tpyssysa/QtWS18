@@ -75,7 +75,7 @@ Item {
     }
 
     Image {
-        id: image1
+        id: image2
         x: 0
         y: 0
         source: "assets/backgrounds_195_610.png"
@@ -463,7 +463,9 @@ Item {
 }
 
 
+
+
 /*##^## Designer {
-    D{i:0;autoSize:true;height:480;width:640}
+    D{i:17;timeline_expanded:true}D{i:20}
 }
  ##^##*/
